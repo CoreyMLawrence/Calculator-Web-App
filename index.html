@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./Calculator.png" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <meta name="theme-color" content="#08527f" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+  </head>
+  <body>
+    <div class="calculator-body">
+      <div class="floating-button">
+        <button>change<br />color</button>
+      </div>
+      <div class="screen-area" id="screen">0</div>
+      <div class="controls">
+        <div class="grid-container">
+          <div class="grid-item-numbers" id="AC"><button>AC</button></div>
+          <div class="grid-item-numbers" id="back"><button>⌫</button></div>
+          <div class="grid-item-operator" id="division"><button>÷</button></div>
+          <div class="grid-item-numbers" id="1"><button>1</button></div>
+          <div class="grid-item-numbers" id="2"><button>2</button></div>
+          <div class="grid-item-numbers" id="3"><button>3</button></div>
+          <div class="grid-item-numbers" id="4"><button>4</button></div>
+          <div class="grid-item-numbers" id="5"><button>5</button></div>
+          <div class="grid-item-numbers" id="6"><button>6</button></div>
+          <div class="grid-item-numbers" id="7"><button>7</button></div>
+          <div class="grid-item-numbers" id="8"><button>8</button></div>
+          <div class="grid-item-numbers" id="9"><button>9</button></div>
+          <div class="grid-item-numbers wide" id="0"><button>0</button></div>
+          <div class="grid-item-numbers" id="decimal"><button>.</button></div>
+        </div>
+        <div class="grid-side">
+          <div class="grid-item-operator" id="multiplication">
+            <button>×</button>
+          </div>
+          <div class="grid-item-operator" id="subtraction">
+            <button>-</button>
+          </div>
+          <div class="grid-item-numbers tall" id="addition">
+            <button>+</button>
+          </div>
+          <div
+            class="grid-item-numbers tall"
+            style="margin-bottom: -0.3em"
+            id="equals"
+          >
+            <button>=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
